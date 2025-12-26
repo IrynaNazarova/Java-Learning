@@ -4,7 +4,7 @@ My Java learning progress and practice exercises
 
 This repository documents my Java learning journey.
 
-It contains small, independent practice modules created while studying Java fundamentals.
+
 
 ---
 
