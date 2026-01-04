@@ -75,7 +75,7 @@ public class SortierenUndSuchen {
 
         while (links <= rechts)
         {
-            int mitte = links + (rechts - links); // # Bereich halbieren
+            int mitte = links + ((rechts - links) / 2); // # Bereich halbieren
             if (arr[mitte] == gesucht)
                 return mitte;
 
