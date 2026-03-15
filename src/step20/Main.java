@@ -1,5 +1,7 @@
 package step20;
 
+import step19.aufgaben.aufgabe3.StandVerkauf;
+
 import java.util.Random;
 import java.util.Scanner;
 

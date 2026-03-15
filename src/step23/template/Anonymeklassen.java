@@ -168,7 +168,7 @@ public class Anonymeklassen {
 
         // Hinweis zu inneren / lokalen Klassen (nested classes):
         // Wenn wir anonyme Klassen erzeugen, erzeugen wir damit innere Klassen. Diese Klassen können auf Member der äußeren Klasse zugreifen.
-        AnonymeKlassen.InnereKlasse iK = new InnereKlasse();
+        Anonymeklassen.InnereKlasse iK = new InnereKlasse();
         iK.printText(); // Diese innere Klasse kann auf das private statische Field der äußeren Klasse zugreifen.
         new InnereKlasse()
         {

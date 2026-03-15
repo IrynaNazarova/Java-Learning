@@ -23,4 +23,8 @@ public class Tiger {
     {
         System.out.println("Meine Fellfarbe ist: " + fellfarbe);
     }
+
+    public void macheMiau() {
+
+    }
 }

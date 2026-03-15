@@ -7,7 +7,7 @@ public class Person  implements HatAdresse {
 
     public Person(String name, String straße, int hausnr, String plz, String ort)
     {
-        Adressverwaltung.erfasse(this, name, straße, hausnr, plz, ort);
+        Adresseverwaltung.erfasse(this, name, straße, hausnr, plz, ort);
     }
 
     @Override
@@ -36,6 +36,6 @@ public class Person  implements HatAdresse {
 
     public void printEtikett()
     {
-        Adressverwaltung.printEtikett(this);
+        Adresseverwaltung.printEtikett(this);
     }
 }
